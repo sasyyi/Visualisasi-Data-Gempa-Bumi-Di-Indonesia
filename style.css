@@ -25,8 +25,8 @@
     padding-top: 40px;
     color: #fff;
     background-color: rgba(0,0,0,.87);
-    border-top-left-radius: 16px;
-    border-top-right-radius: 16px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     -webkit-backdrop-filter: blur(8.7px);
     border: 1px solid rgba(4, 4, 4, 0.31);
@@ -76,7 +76,7 @@
     transition: color 0.4s ease;
   }
   .socials a:hover i {
-    color: ;
+    color: #27bcda;
   }
   
   .footer-bottom {
@@ -91,7 +91,7 @@
   }
   .footer-bottom p {
     /* float: left; */
-    font-size: 20px;
+    font-size: 16px;
     word-spacing: 2px;
     text-transform: capitalize;
   }
